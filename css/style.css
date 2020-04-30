@@ -9,6 +9,7 @@ h1{
   font-style: italic;
   font-family: georgia;
   text-align: center;
+  padding-bottom: 1em;
 }
 
 h2{
@@ -21,17 +22,17 @@ h2{
   padding-bottom: 1em;
 }
 
-li{
+a{
   font-family: georgia;
   font-size: 1em;
   display: inline;
-  padding-left: 1pc;
+  padding-left: 10pc;
   padding-top: 1em;  
 }
 
 p{
   font-size: 19px;
-  text-align: center;
+  text-align: left;
   font-family: georgia;
   word-spacing: 0em;
   padding-top: 0em;
