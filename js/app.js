@@ -65,29 +65,35 @@ function kids() {
 }
 kids();
 
+function number() {
+    var question6 = prompt('What number am I thinking of?');
+    console.log(question6);
+    // for(var z = 0; z < 15; z++){
+    for(var i = 0; i < 4; i++){
 
-      alert('What number am I thinking of?');
-console.log(question6);
-    for(var z = 0; z < 15; z++){
+      if (question6 > 15) {
+        prompt('too high try again');
+      } else if (question6 < 15) {
+        prompt('too low try again');  
+      } else if(question6 === 15) {
+        alert('you guessed correctly!');
+      }
+ }  
+}
+number(); 
 
-    if (question6 > 15) {
-      prompt('too high try again');
-    } else if (question6 < 15) {
-      prompt('too low try again');  
-    } else if(question6 === 15) {
-      alert('you guessed correctly!');
-    }
 
-var question7 =prompt('How many states have I lived in?');
-console.log(question7);
-    
-    if (question7 < 3) {
-          prompt('too cold try again');
-    } else if(question7 > 3) {
-          prompt('too hot try again');
-    } else if(question7 === 3) { 
-          alert('correct good guess!');
-    } 
-  }   
-  
+function state() {
+  var question7 =prompt('How many states have I lived in?');
+  console.log(question7);
+      
+      if (question7 < 3) {
+            prompt('too cold try again');
+      } else if(question7 > 3) {
+            prompt('too hot try again');
+      } else if(question7 === 3) { 
+            alert('correct good guess!');
+      }    
+}
+state();  
 
