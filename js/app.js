@@ -65,20 +65,46 @@ function kids() {
 }
 kids();
 
-function number() {
-    var question6 = prompt('What number am I thinking of?');
-    console.log(question6);
-    // for(var z = 0; z < 15; z++){
+/* function number() {
+    var question6 = parseInt(prompt('What number am I thinking of?'));
+    //console.log(typeof question6);
     for(var i = 0; i < 4; i++){
 
       if (question6 > 15) {
         prompt('too high try again');
       } else if (question6 < 15) {
         prompt('too low try again');  
-      } else if(question6 === 15) {
+      } else {
         alert('you guessed correctly!');
       }
  }  
+}
+
+number(); */
+
+function number() {
+  var lucky = 15;
+  var counter = 0;
+  var question6 = parseInt(prompt('What number am I thinking of?'));
+
+  while(question6 !== lucky && counter < 4) {
+    counter++;
+
+    if(question6 > 15) {
+      question6 = parseInt(prompt('too high try again'));
+    }
+    else if(question6 < 15) {
+      question6 = parseInt(prompt('too low try again'));
+    }
+    else if(question6 === 15) {
+      alert('you guessed correctly!');
+      break;
+    } else {
+      alert('thanks for trying, but the number was 15');
+      break;
+    }
+  }
+
 }
 number(); 
 
