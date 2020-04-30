@@ -5,51 +5,66 @@ var visitorName = prompt('What is your name?');
       alert('It\s nice to meet you!' );
 console.log('visitorName');
  
+function likeCoding() {
+  var question1 = prompt('Do you like coding?');
+  console.log(question1);
 
-var question1 = prompt('Do you like coding?');
-console.log(question1);
+      if (question1 === 'yes') {
+        alert('I hear Code Fellows is the best place to start!');
+      } else if (question1 === 'no') {
+        alert('No problem coding isn\'t for everyone!');
+      }
+}
+likeCoding();
 
-    if (question1 === 'yes') {
-      alert('I hear Code Fellows is the best place to start!');
-    } else if (question1 === 'no') {
-      alert('No problem coding isn\'t for everyone!');
-    }
+function pets() {
+  var question2 = prompt('Do you have any pets?');
+  console.log("question2");
+      
+      if (question2.toLowerCase() === 'yes') {
+        alert('Nice, I have a pet cat named Gracie!');
+      } else if (question2 === 'no') {
+        alert('They\'re pretty cool to have!');
+      }
+}
+pets();
 
-var question2 = prompt('Do you have any pets?');
-console.log("question2");
-    
-    if (question2.toLowerCase() === 'yes') {
-      alert('Nice, I have a pet cat named Gracie!');
-    } else if (question2 === 'no') {
-      alert('They\'re pretty cool to have!');
-    }
+function seattle() {
+  var question3 = prompt('Do you live in Seattle?');
+  console.log(question3);
 
-var question3 = prompt('Do you live in Seattle?');
-console.log(question3);
+      if (question3 === 'yes') {
+        alert('Hello neighbor!');
+      } else if (question3 === 'no') {
+        alert('Come visit sometime!');
+      }
+}
+seattle();
 
-    if (question3 === 'yes') {
-      alert('Hello neighbor!');
-    } else if (question3 === 'no') {
-      alert('Come visit sometime!');
-    }
+function married() {
+  var question4 = prompt('Are you married?');
+  console.log(question4);
 
-var question4 = prompt('Are you married?');
-console.log(question4);
+      if (question4 === 'yes') {
+        alert('I am too!');
+      } else if (question4 === 'no') {
+        alert('You\'re not the only one!');
+      }
+}
+married();
 
-    if (question4 === 'yes') {
-      alert('I am too!');
-    } else if (question4 === 'no') {
-      alert('You\'re not the only one!');
-    }
+function kids() {
+  var question5 = prompt('Do you have kids?');
+  console.log(question5); 
 
-var question5 = prompt('Do you have kids?');
-console.log(question5); 
+      if (question5 === 'yes') {
+        alert('I also have kids!');
+      } else if (question5 === 'no'); {
+        alert('Just asking!');  
+      }
+}
+kids();
 
-    if (question5 === 'yes') {
-      alert('I also have kids!');
-    } else if (question5 === 'no'); {
-      alert('Just asking!');  
-    }
 
       alert('What number am I thinking of?');
 console.log(question6);
@@ -72,4 +87,7 @@ console.log(question7);
           prompt('too hot try again');
     } else if(question7 === 3) { 
           alert('correct good guess!');
-    }      
+    } 
+  }   
+  
+
