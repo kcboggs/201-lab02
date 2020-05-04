@@ -186,23 +186,6 @@ function kids() {
 }
 kids();
 
-/* function number() {
-    var question6 = parseInt(prompt('What number am I thinking of?'));
-    //console.log(typeof question6);
-    for(var i = 0; i < 4; i++){
-
-      if (question6 > 15) {
-        prompt('too high try again');
-      } else if (question6 < 15) {
-        prompt('too low try again');  
-      } else {
-        alert('you guessed correctly!');
-      }
- }  
-}
-
-number(); */
-
 function number() {
   var lucky = 15;
   var counter = 0;
