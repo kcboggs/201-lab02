@@ -1,13 +1,13 @@
 'use strict'
 
 // Welcome message
-// function welcome(){
+function welcomeGreeting(){
   var userName =  prompt('Nice of you to stop by what is your name?');
 
     alert('Hello ' + userName + '! I\'m Kim, thanks for visiting my page I hope you enjoy it. I\'ll need to ask you a few yes or no questions before proceeding. Bare with me my teacher made me do it because it\'s part of my school lab assignment. At the end you\'ll have a chance to play a guessing game, good luck.');
-    console.log('the user name is: ' + userName);
-
-welcome();
+    console.log('welcomeGreeting: ' + userName);
+}
+welcomeGreeting();
 
 // // Question 1 
 function bornIn(){
@@ -67,10 +67,9 @@ function work(){
 
           if (workGuess.toLowerCase() === 'yes'){
             alert('Nope Muckleshoot Casino is Seattle\'s biggest casino but that isn\'t where I work.');
-          } else if (workGuess.toLowercase() === 'no'){
+          } else if (workGuess === 'no');
             alert('Correct I work at Seattle\'s closest casino and that would be Snoqualmie Casino.');
-    };
-};
+}
 work();
  
 // Question 6 (this needs fixing )
@@ -99,22 +98,23 @@ guessNumber();
 
 // Question 7 About me guessing game with arrays
 function place() {
-var placeGuess = [Guam];
+var placeGuess = ('Guam');
     var dayBegins = prompt('Where do you think America\'s day begins?');
     
     for (var placeGuess = 1; placeGuess < 7; placeGuess++){
           
-        if(placeGuess === Guam[0] || placeGuess === correctPlaceGuess[1] ||  placeGuess === correctPlaceGuess[2]){
+        if(placeGuess === (Guam.toLowercase[0]) || placeGuess === correctPlaceGuess[1] ||  placeGuess === correctPlaceGuess[2]){
            correctGuess++;
            alert('Nice job guessing correctly Guam is where America\'s day begins!');
            console.log(placeGuess);
         break;
-      } else (placeGuess === 6) { 
+      } else if (placeGuess === 6){ 
            alert('You\'re out of guesses the correct answer is Guam.');
         break;
-//       } else if { placeGuess = prompt('Nope not that one guess again.')}                            
-//   }
-// }
+      } else if  (placeGuess = prompt('Nope not that one guess again.'));                            
+      console.log('placeGuess' + dayBegins)
+    }
+}
 place();
 
 function score() {
