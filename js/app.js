@@ -78,16 +78,11 @@ function work(){
 }
 work();
 
-// Question 6 (this needs fixing  )
+// Question 6 (this still needs fixing)
 
 function guessNumber() {
   var numberGame = prompt('Can you tell me what number I\'m thinking of I\'ll give you a few guesses.');
   var answer = 15;
-
-  // var numberGuess = [you\'re pretty bad at this the number I\'m think of is 15.];
-  // var wrongGuess = ['That\'s too low try again', 'That\'s too low try again', 'That\'s too high try again', 'That\'s too high try again'];
-  // var correctGuess = ['Awesome that was a good guess 15 is exactly the number I\'m thinking of!'];
-  // console.log(numberGame);
 
   for(var i = 0; i < 3; i++) {
     if (numberGame < answer) {
@@ -102,7 +97,6 @@ function guessNumber() {
   }
 }
 guessNumber();
-
 
 // Question 7 About me guessing game with arrays
 function guessColor() {
@@ -129,15 +123,6 @@ function guessColor() {
 
     // If they reach this answer their guess was wrong
     alert('Nope that\'s not the one!');
-
-    // if(placeGuess === Guam.toLowerCase[0] || placeGuess === (favoriteColors[1]) || placeGuess === favoriteColors[2]){
-    //   correctGuess++;
-    //   alert('Nice job guessing correctly!');
-    //   break;
-    // } else if (placeGuess === 6){
-    //   alert('You\'re out of guesses the correct answer is Guam.');
-    //   break;
-    // } else if ( = prompt('Nope not that one guess again.'));
   }
 }
 guessColor();
