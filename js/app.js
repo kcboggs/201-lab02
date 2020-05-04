@@ -97,25 +97,23 @@ var numberGame = prompt('Can you tell me what number I\'m thinking of I\'ll give
 guessNumber();
 
 // Question 7 About me guessing game with arrays
-function place() {
-var placeGuess = ('Guam');
+function guessWhere() {
+var placeGuess =(Guam);
     var dayBegins = prompt('Where do you think America\'s day begins?');
-    
+    console.log('placeGuess');
     for (var placeGuess = 1; placeGuess < 7; placeGuess++){
           
-        if(placeGuess === (Guam.toLowercase[0]) || placeGuess === correctPlaceGuess[1] ||  placeGuess === correctPlaceGuess[2]){
+        if(placeGuess === Guam.toLowerCase[0] || placeGuess === (correctPlaceGuess[1]) ||  placeGuess === correctPlaceGuess[2]){
            correctGuess++;
            alert('Nice job guessing correctly Guam is where America\'s day begins!');
-           console.log(placeGuess);
         break;
       } else if (placeGuess === 6){ 
            alert('You\'re out of guesses the correct answer is Guam.');
         break;
       } else if  (placeGuess = prompt('Nope not that one guess again.'));                            
-      console.log('placeGuess' + dayBegins)
     }
 }
-place();
+guessWhere();
 
 function score() {
   alert('Nice try but you only got' + correctGuess + 'out of 7 correct');
