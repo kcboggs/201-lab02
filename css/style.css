@@ -1,6 +1,6 @@
 body{
   padding-left: 20px;
-  background-color: palegoldenrod;
+  background-color: rgb(148, 148, 148);
 }
 
 h1{
@@ -13,20 +13,19 @@ h1{
 }
 
 h2{
-  color: orangered;
-  font-size: 1em;
-  font-style: italic;
+  color: rgb(216, 63, 28);
+  font-size: 2pc;
+  font-style: bold;
   font-weight: georgia;
   text-align: left;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 1em;   
 }
 
 a{
   font-family: georgia;
   font-size: 1em;
-  display: inline;
-  padding-left: 10pc;
+  padding-left: 2pc;
   padding-top: 1em;  
 }
 
@@ -37,6 +36,8 @@ p{
   word-spacing: 0em;
   padding-top: 0em;
   padding-bottom: 20px;
+  padding-right: 5;
+  padding-left: 1em;
 }
 
 p2{
@@ -45,6 +46,8 @@ p2{
   text-align: left;
   word-spacing: 0em;
   padding-bottom: 20px;
+  padding-right: 5cm;
+  padding-left: 1em;
 }
 
 p3{
@@ -52,24 +55,29 @@ p3{
   font-style: italic;
   text-align: center;
   padding-bottom: 20px;
+  padding-left: 1px;
 }
 
-body{
+/* body{
   font-size: 20px;
   text-align: left;
   word-spacing: 0em;
   padding-top: 0em;
-}
+  padding-left: 1em;
+} */
 
 img{
   padding-top: 3em;
-  border-color: black;
+  padding-bottom: 1em ;
+  padding-left: 0cm;
+  padding-right: 1cm;
+  border-color:black;
   float: right;
 }
 
 footer{
-  color: orangered;
-  font-size: 1rem;
+  color: rgb(216, 63, 28);
+  font-size: 2pc;
   font-family: georgia;
   text-align: center;
   font-size: 5mm;
