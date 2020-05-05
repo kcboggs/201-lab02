@@ -78,7 +78,7 @@ function work(){
 }
 work();
 
-// Question 6 (this still needs fixing)
+// Question 6 (there is still a bug in this one)
 
 function guessNumber() {
   var numberGame = prompt('Can you tell me what number I\'m thinking of I\'ll give you a few guesses.');
